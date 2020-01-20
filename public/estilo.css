@@ -5,8 +5,9 @@ body {
     font-size: 20px;
   }
 h1 img{
-    width:100%;
+    width:50%;
     margin: 20px;
+    
 }
 input{
     border: 1px solid #000000;
