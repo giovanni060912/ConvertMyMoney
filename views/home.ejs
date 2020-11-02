@@ -1,22 +1,7 @@
-<%-include('header') %>
-
- <div class="jumbotron">
-    <div class="card">
-        <div class="card-body">
-            <form method="GET" action="/cotacao">
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Cotação dolar</label>
-                    <input name="cotacao" type="number" class="form-control" id="cotacao" aria-describedby="cotacao"
-                        value="<%= cotacao %>" readonly=“true”>
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputPassword1">Quantidade de dolares</label>
-                    <input name="quantidade" type="number" class="form-control" id="quantidade" required minlength="1">
-                </div>
-                <button class="btn btn-outline-primary">Converter</button>
-            </form>
-        </div>
-    </div>
-</div>
-
-<%-include('footer') %>
+<%- include('header') %>
+<form method="GET" action="/cotacao">
+    <input name="cotacao" placeholder="Cotação dolar" value="<%= cotacao %>"><br>
+    <input name="quantidade" placeholder="Quantidade de dolares"><br>
+    <button>Converter!</button>
+</form>
+<%- include('footer') %>
