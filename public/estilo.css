@@ -1,30 +1,25 @@
-body {
+body{
     text-align: center;
-    padding: 15px;
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-  }
-h1{
-    width:489px;
+}
+h1 img{
+    width: 489px;
     margin: 20px;
-    heigth:100px
-    
 }
 input{
     border: 1px solid #000000;
-    background: #FDFDFD;
-    font-size:20px;
+    background: #fdfdfd;
+    font-size: 20px;
     padding: 10px;
-    margin: 2px;
+    margin: 4px;
 }
 button{
     border: 1px solid #000000;
-    background: #D8D8D8;
-    font-size:20px;
+    background: #d8d8d8;
+    font-size: 20px;
     padding: 10px;
 }
 .result{
     padding: 10px;
-    border: 1px solid #D8D8D8;
-    background: #FDFDFD;
+    border: 1px solid #d8d8d8;
+    background: #fdfdfd;
 }
